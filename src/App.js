@@ -1,6 +1,8 @@
 import React from 'react';
 import Travel from './Travel';
 import data from './data';
+import Header from './Header';
+import './style.css';
 export default function App() {
   const cardElement = data.map(item => {
     return (
